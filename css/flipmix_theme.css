@@ -1,0 +1,202 @@
+/*
+ * Author: Esteban Flores
+ * Website: estebanflores.org
+ * Email: hi@estebanflores.org
+ * Inspired by: https://www.behance.net/MathavanJaya
+ */
+
+ 
+ /* General Styling */
+	body 
+	{
+		/* remove the horizontal scroll bar */ 
+		overflow-x: hidden;
+		font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+		
+		/* avoid eye strain with off white */
+		background-color: #ecf0f1;
+		webkit-tap-highlight-color: #fed136;
+		
+		/* set all text to same color as links*/
+		color: #fed136;
+	}
+
+	/* link styling for all a tags */
+	
+	a 
+	{
+		color: #fed136;
+	}
+	
+	a, a:hover, a:focus, 
+	a:active, a.active 
+	{
+		outline: 0;
+		color: #fec503;
+	}
+	
+	/* header styling */
+	h1, h2, h3,
+	h4, h5, h6 
+	{
+		text-transform: uppercase;
+		font-family: Montserrat, "Helvetica Neue", Helvetica,Arial, sans-serif;
+		font-weight: 700;
+	}
+
+	
+/* Navbar */
+
+	.navbar-default 
+	{
+		border-color: transparent;
+		background-color: #2C3E50;
+	}
+
+	.navbar-default .navbar-brand 
+	{
+		font-family: Courgette, "Helvetica Neue", Helvetica, Arial, cursive;
+		color: #fed136;
+	}
+
+	.navbar-default .navbar-brand:hover,
+	.navbar-default .navbar-brand:focus,
+	.navbar-default .navbar-brand:active,
+	.navbar-default .navbar-brand.active 
+	{
+		color: #fec503;
+	}
+
+	.navbar-default .navbar-collapse 
+	{
+		border-color: rgba(255,255,255,.02);
+	}
+
+	.navbar-default .navbar-toggle 
+	{
+		border-color: #fed136;
+		background-color: #34495E;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar 
+	{
+		background-color: #fff;
+	}
+
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus 
+	{
+		/*background-color: #fec503;*/
+		background-color: #a78307;
+	}
+
+	.navbar-default .nav li a 
+	{
+		text-transform: uppercase;
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-weight: 400;
+		letter-spacing: 1px;
+		color: #fff;
+	}
+
+	.navbar-default .nav li a:hover,
+	.navbar-default .nav li a:focus 
+	{
+		outline: 0;
+		color: #fed136;
+	}
+
+/* Header Styling */
+	header
+	{
+		
+	}
+
+	header .heading-text
+	{
+		padding-top: 100px;
+		paddting-bottom: 50px;
+	}
+	
+	header .heading-head
+	{
+		
+	}
+	
+	header .heading-lead
+	{
+		
+	}
+
+
+/* Contact Styling */
+
+/* Footer Styling */
+	footer
+	{
+		padding: 25px 0;
+		text-align: center;
+		background-color: #2C3E50;
+	}
+	
+	footer .copyright
+	{
+		text-transform: uppercase;
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		padding-bottom:10px;
+		line-height: 40px;
+	}
+	
+	ul.social-buttons li a
+	{
+		color: #fff;
+		width: 40px;
+		height: 40px;
+		font-size: 20px;
+		
+		/* give each button a circle shape */
+		display: block;
+		border-radius: 100%;
+		background-color: #222;
+		
+		/* center text in circle */
+		line-height: 40px;
+		
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		transition: all .3s;
+	}
+	
+	ul.social-buttons li a:hover,
+	ul.social-buttons li a:focus
+	{
+		color: #fed136;
+	}
+	
+	
+	
+	
+	
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min)
+{ 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min)
+{
+	
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) 
+{
+	
+}
